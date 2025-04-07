@@ -1,0 +1,56 @@
+<html>
+    
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Doto:wght,ROND@100..900,100&display=swap" rel="stylesheet">
+    </head>
+    
+    <body>
+        
+        <!-- card -->
+        <div class="boardcontainer">
+            
+            <!-- home column -->
+            <div class="columncontainer">
+                <h3>HOME</h3>
+                <div id="scorehome">
+                    <p id="scorehometext">0</p>
+                </div>
+                
+                <!-- add numbers button -->
+                <div class="addcontainer">
+                    <button class="addnumbercontainer" onclick="homeaddone()">+1</button>
+                    <button class="addnumbercontainer" onclick="homeaddtwo()">+2</button>
+                    <button class="addnumbercontainer" onclick="homeaddthree()">+3</button>
+                </div>
+            </div>
+            
+            
+            
+            <!-- guest column -->
+            <div class="columncontainer">
+                <h3>Away</h3>
+                <div id="scoreguest">
+                    <p id="scoreguesttext">0</p>
+                </div>
+                
+                <!-- add numbers button -->
+                <div class="addcontainer">
+                    <button class="addnumbercontainer" onclick="guestaddone()">+1</button>
+                    <button class="addnumbercontainer" onclick="guestaddtwo()">+2</button>
+                    <button class="addnumbercontainer" onclick="guestaddthree()">+3</button>
+                </div>
+                
+            </div>
+            
+            
+        </div>
+        <!-- card ends -->
+        
+        <script src="index.js"></script>
+        
+    </body>
+    
+</html>
